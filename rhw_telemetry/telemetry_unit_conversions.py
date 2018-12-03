@@ -1,6 +1,6 @@
 import logging
 import sys
-from .ntcle100_temp_sensor import resistance_to_celsius
+from ntcle100_temp_sensor import resistance_to_celsius
 ADC_REFERENCE_5V = 4885
 SOLAR_PANEL_CURRENT_CALIB_MULTIPLIER = 0.95
 ADC_REFERENCE_3V3 = 3145
